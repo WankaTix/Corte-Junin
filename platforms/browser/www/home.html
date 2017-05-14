@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Corte Superior de Justicia Junín</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+        <script type="text/javascript" src="cordova.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="row text-center">
+                <img src="images/logo_2.png" class="img-responsive app-img">
+                <p class="app-text-2">Corte Superior de Justicia Junín</p>
+            </div>
+        </header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="text-center">
+                    <img src="images/presidente.jpg" class="img-responsive img-thumbnail">
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 app-cont-gen">
+                  <div class="col-xs-6 app-col">
+                      <div class="app-contenedor text-center" onclick="ToBusquedaExpedientes()">
+                          <span class="glyphicon glyphicon-search app-icon"></span>
+                          <p>Consulta de Expedientes</p>
+                      </div>
+                  </div>
+                  <div class="col-xs-6 app-col">
+                      <div class="app-contenedor text-center" onclick="ToConsultas()">
+                          <span class="glyphicon glyphicon-envelope app-icon"></span>
+                          <p>Registrar consultas</p>
+                      </div>
+                  </div>
+                  <div class="col-xs-6">
+                      <div class="app-contenedor text-center" onclick="ToQuejas()">
+                          <span class="glyphicon glyphicon-comment app-icon"></span>
+                          <p>Registrar Quejas</p>
+                      </div>
+                  </div>
+                  <div class="col-xs-6">
+                      <div class="app-contenedor text-center" onclick="ToOrganosJurisdicionales()">
+                          <span class="glyphicon glyphicon-home app-icon"></span>
+                          <p>Organos Juridisccionales</p>
+                      </div>
+                  </div>
+                  <div class="col-xs-6">
+                      <div class="app-contenedor text-center" onclick="ToDirectorio()">
+                          <span class="glyphicon glyphicon-earphone app-icon"></span>
+                          <p>Direcctorio Telefónico</p>
+                      </div>
+                  </div>
+                  <div class="col-xs-6">
+                      <div class="app-contenedor text-center" onclick="ToAudiencias()">
+                          <span class="glyphicon glyphicon-calendar app-icon"></span>
+                          <p>Audiencias</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            </div>
+            <footer class="app-footer app-footer-2">
+                <div class="text-center">
+                    <p class="app-text-0">Todos los derechos Reservados © 2017</p>
+                    <p class="app-text-0">Coordinación de informática</p>
+                </div>
+            </footer>
+        </div>
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/angular.min.js"></script>
+        <script type="text/javascript">
+            function ToBusquedaExpedientes() {
+                window.location.href = "busqueda_expedientes.html";
+            }
+
+            function ToOrganosJurisdicionales() {
+                window.location.href = "organos.html";
+            }
+
+            function ToDirectorio() {
+                window.location.href = "directorio.html";
+            }
+
+            function ToQuejas() {
+                window.location.href = "quejas.html";
+            }
+
+            function ToAudiencias() {
+                window.location.href = "audiencias.html";
+            }
+
+            function ToConsultas() {
+                window.location.href = "consultas.html";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="app-csjj">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Corte Superior de Justicia Junín</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+        <script type="text/javascript" src="cordova.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="row text-center">
+                <img src="images/logo_2.png" class="img-responsive app-img">
+                <p class="app-text-2">Corte Superior de Justicia Junín</p>
+            </div>
+        </header>
+        <div class="container-fluid" ng-controller='busquedaCtrl'>
+            <div class="row">
+                <hr>
+                <h4 class="text-center">REGISTRO DE QUEJAS</h4>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <div class="col-xs-3">
+                                <label class="control-label app-label">DNI</label>
+                            </div>
+                            <div class="col-xs-9">
+                                <input type="text" maxlength="8" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-3">
+                                <label class="control-label app-label">Email</label>
+                            </div>
+                            <div class="col-xs-9">
+                                <input type="text" maxlength="8" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-3">
+                                <label class="control-label app-label">Celular</label>
+                            </div>
+                            <div class="col-xs-9">
+                                <input type="text" maxlength="8" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-3">
+                                <label class="control-label app-label">Contenido</label>
+                            </div>
+                            <div class="col-xs-9">
+                                <textarea name="name" rows="6" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <div class="text-center">
+                                    <p></p>
+                                    <a href="home.html" class="btn app-button">Enviar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer class="app-footer app-footer-2">
+            <div class="text-center">
+                <p class="app-text-0">Todos los derechos Reservados (c) 2017</p>
+                <p class="app-text-0">Coordinación de informática</p>
+            </div>
+        </footer>
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/angular.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>

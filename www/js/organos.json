@@ -1,0 +1,82 @@
+[
+    {
+        "dependencia": "CHANCHAMAYO",
+        "sedes": [
+            "Dist. La Merced Jr. Junín N° 399; Jr. Amazonas y Palca; Zuchetti N° 166",
+            "Dist. Perene Av. Esperanza S/N",
+            "Dist. Pichanaki Micaela Bastidas N° 239",
+            "Dist. San Ramon Jr. Apurimac N° 252-254"
+        ]
+    },
+    {
+        "dependencia": "CHUPACA",
+        "sedes": [
+            "Dist. Chupaca Jiron Grau N° 100"
+        ]
+    },
+    {
+        "dependencia": "CONCEPCION",
+        "sedes": [
+            "Dist. Concepcion AV. LEOPOLDO PEÑA 152"
+        ]
+    },
+    {
+        "dependencia": "HUANCAYO",
+        "sedes": [
+            "Dist. Chilca Pasaje San Andres N° 188",
+            "Dist. El Tambo	Jr. Parra del Riego",
+            "Dist. Huancayo	Calle San Juan 346",
+            "Dist. San agustin de Cajas	Av. 20 de Marzo S/N Palacio Municipal"
+        ]
+    },
+    {
+        "dependencia": "JAUJA",
+        "sedes": [
+            "Dist. Jauja Av. Tarma 1053"
+        ]
+    },
+    {
+        "dependencia": "JUNIN",
+        "sedes": [
+            "Dist. Junin Calle Simon Bolivar N° 119"
+        ]
+    },
+    {
+        "dependencia": "OXAPAMPA",
+        "sedes": [
+            "Dist. Oxapampa	Jr Bolognesi 335",
+            "Dist. Villa Rica Jr. Cooperativa N° 369",
+        ]
+    },
+    {
+        "dependencia": "SATIPO",
+        "sedes": [
+            "Dist. Mazamari	Calle las Malvinas S/N",
+            "Dist. San Martin de Pangoa	Avenida 28 de Julio, cuadra 6",
+            "Dist. Rio Tambo Puerto Prado - Puerto Remolino S/N",
+            "Dist. Satipo Jr. Micaela Bastidas N° 1022"
+        ]
+    },
+    {
+        "dependencia": "TARMA",
+        "sedes": [
+            "Dist. Acobamba	Manuel A. Odria S/N",
+            "SMDT Jr. Lima 510",
+            "NCPP Jr. Cuzco Edificio Fortunato Cardenas			",
+            "Dist. Tarma Av. Fco. de Marini 404-406 ; Calle Lima 510; Jr. Cuzco"
+        ]
+    },
+    {
+        "dependencia": "TAYACAJA",
+        "sedes": [
+            "Dist. Pampas Jr. Mariscal Caceres N° 1555",
+            "Dist. Surcubamba Plaza Principal S/N"
+        ]
+    },
+    {
+        "dependencia": "YAULI",
+        "sedes": [
+            "Dist. La Oroya	Av. Horacio Zevallos N° 345"
+        ]
+    }
+]

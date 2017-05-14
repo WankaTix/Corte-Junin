@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="app-csjj">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Corte Superior de Justicia Junín</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+        <script type="text/javascript" src="cordova.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="row text-center">
+                <img src="images/logo_2.png" class="img-responsive app-img">
+                <p class="app-text-2">Corte Superior de Justicia Junín</p>
+            </div>
+        </header>
+        <div class="container-fluid" ng-controller='busquedaCtrl'>
+            <div class="row">
+                <hr>
+                <h4 class="text-center">DIRECTORIO TELEFÓNICO</h4>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="well well-sm app-text-table" ng-repeat="dir in directorio">
+                        <p><strong><span class="glyphicon glyphicon-tag"></span>  {{dir.instancia}}</strong></p>
+                        <p><span class="glyphicon glyphicon-map-marker"></span>  {{dir.direccion}}</p>
+                        <p><span class="glyphicon glyphicon-phone-alt"></span>  {{dir.telefono}}</p>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="form-horizontal text-center">
+                        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-menu-down"></span> Ver más</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="app-footer app-footer-2">
+            <div class="text-center">
+                <p class="app-text-0">Todos los derechos Reservados © 2017</p>
+                <p class="app-text-0">Coordinación de informática</p>
+            </div>
+        </footer>
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/angular.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>

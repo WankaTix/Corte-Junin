@@ -1,0 +1,127 @@
+.app-container {
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.app-img {
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.app-title-0 {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.app-title-1 {
+    color: #a33a31;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.content-text {
+    line-height: 12px;
+}
+
+.app-text-1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.app-text-2 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.app-icon {
+    font-size: 32px;
+}
+
+.app-item {
+    background-color: #a33a31;
+    color: #fff;
+}
+
+.app-color-pj {
+    background-color: #a33a31 !important;
+    color: #fff !important;
+}
+
+.app-footer-2 {
+    background-color: #a33a31;
+    color: #fff;
+    margin-top: 10px;
+    line-height: 12px;
+    padding: 5px 0;
+}
+
+.app-label {
+    font-size: 11px !important;
+}
+
+.app-form {
+    border: 1px solid #a33a31;
+    /* border-radius: 5px; */
+    margin: 5px;
+    padding: 20px 10px;
+}
+
+.app-contenedor {
+    background-color: #a33a31;
+    border-radius: 5px;
+    color: #fff;
+    margin: 5px 0 auto;
+    min-height: 115px;
+    padding: 10px !important;
+}
+
+.app-col {
+    padding: 0 5 !important;
+}
+
+.app-text-0 {
+    font-size: 9px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.app-cont-gen{
+    padding: 5px 0 !important;
+}
+
+/************** tabla ****************/
+.app-text-table {
+    font-size: 10px;
+}
+
+/*  Reporte Detalle*/
+.app-texto-reporte {
+    font-size: 10px;
+}
+
+/***************** Órganos jurisdiccionales *******************/
+.app-enlace {
+    text-decoration: none;
+}
+
+.app-panel-group {
+    margin-bottom: 5px !important;
+}
+
+
+/**************** app input text *****************************/
+.app-input-control {
+    border-radius: 0 !important;
+}
+
+.app-button {
+    background-color: #a33a31 !important;
+    color: #fff !important;
+    border-radius: 1px !important;
+}
